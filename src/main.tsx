@@ -6,10 +6,10 @@ import App from "./App.tsx";
 const rootElement = document.getElementById("root") as HTMLElement;
 
 if (!rootElement.innerHTML) {
-  const root = ReactDOM.createRoot(rootElement);
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>,
+    );
 }
